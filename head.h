@@ -4,16 +4,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-//for fork()
+/*for fork()*/
 #include <sys/types.h>
 
-//for wait()
+/*for wait()*/
 #include <sys/wait.h>
 
-//for execve()
+/*for execve()*/
 #include <unistd.h>
 
-//functions
+/*functions*/
 int main();
 int main(int ac, char **av, char **env);
 
