@@ -1,11 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main (void)
+int main()
 {
-	size_t chars;
-	size_t bufsize = 100;
 	char *buff;
+	size_t bufsize = 32;
+	size_t chars;
 
 	buff = (char *)malloc(bufsize * sizeof(char));
 	if (buff == NULL)
@@ -14,7 +14,7 @@ int main (void)
 	{
 		printf("$");
 		chars = getline(&buff, &bufsize, stdin);
-	
 		system(buff);
 	}
+	return (0);
 }
