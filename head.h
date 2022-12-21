@@ -14,7 +14,7 @@
 #include <unistd.h>
 
 /*functions*/
-int main();
+int main(void);
 int main(int ac, char **av);
 
 #endif
