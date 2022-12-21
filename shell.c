@@ -3,11 +3,11 @@
 /**
  * main - reproduces a simple shell
  * @ac: number of arguments passe
- * @av: arguments 
+ * @av: arguments
  * @env: the environments of the proces
  * Return: 0 on success, -1 otherwise
  */
-int main(__attribute__((unused)) int ac, char **av, __attribute__((unused)) char **env)
+int main(__attribute__((unused)) int ac, char **av)
 {
 	char *argv[] = {"/bin/sh", NULL};
 
