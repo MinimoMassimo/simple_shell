@@ -15,6 +15,6 @@
 
 /*functions*/
 int main();
-int main(int ac, char **av, char **env);
+int main(int ac, char **av);
 
 #endif
