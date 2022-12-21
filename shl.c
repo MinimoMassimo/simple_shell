@@ -4,8 +4,7 @@ int main(void)
 {
 	size_t bufsize = 100;
 	char *buff;
-	int i;
-	char *str;
+	int i = 0;
 
 	buff = (char *)malloc(bufsize * sizeof(char));
 	if (buff == NULL)
