@@ -17,7 +17,7 @@
 #include <string.h>
 
 /*functions*/
-/*int main(int ac, char **av, char **env);*/
-int main(void);
+int main(int ac, char **av);
+/*int main(void);*/
 
 #endif
