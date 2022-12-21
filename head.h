@@ -13,8 +13,11 @@
 /*for execve()*/
 #include <unistd.h>
 
+/*for strstr()*/
+#include <string.h>
+
 /*functions*/
-int main();
 int main(int ac, char **av);
+/*int main(void);*/
 
 #endif

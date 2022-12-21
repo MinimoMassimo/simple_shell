@@ -8,8 +8,6 @@
  */
 int main(__attribute__((unused)) int ac, char **av)
 {
-	char *argv[] = {"/bin/sh", NULL};
-
-	execve(argv[0], av + 1, NULL);
+	execl("/bin/sh", av[1], NULL);
 	return (0);
 }
